@@ -89,3 +89,8 @@ header a:hover{
 .img-login{
     padding: 0px 20px;
 }
+
+.imagemHeader{
+    background-image: url(../img/biblioteca.png);
+    height: 150px;
+}

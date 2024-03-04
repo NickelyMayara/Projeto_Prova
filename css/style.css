@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --black: #000000;
     --marrom-300: #5B3C35;
@@ -93,4 +95,31 @@ header a:hover{
 .imagemHeader{
     background-image: url(../img/biblioteca.png);
     height: 150px;
+}
+
+.container-texto p{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: var(--marrom-200);
+    font-size: 13.5px;
+    font-weight: 400;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 27px;
+    padding-bottom: 80px;
+}
+
+.bloco-imagens{
+    background-color: var(--marrom-200);
+    border-radius: 40px;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 80px;
+    background-color: var(--marrom-300);
 }

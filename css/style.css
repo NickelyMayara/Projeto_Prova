@@ -120,6 +120,34 @@ header a:hover{
 }
 
 footer{
-    height: 80px;
+    height: 90px;
     background-color: var(--marrom-300);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--marrom-100);
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.links-footer{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 10px;
+    transition-duration: 1s;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.links-footer:hover{
+    color: var(--marrom-100);
+    font-weight: 600;
+}
+
+a:-webkit-any-lin{
+    color: white;
 }
